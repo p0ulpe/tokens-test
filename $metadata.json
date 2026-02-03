@@ -1,5 +1,6 @@
 {
   "tokenSetOrder": [
-    "tokens.nest"
+    "tokens.nest",
+    "brand/ecommerce"
   ]
 }

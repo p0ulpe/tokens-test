@@ -1,0 +1,8 @@
+{
+  "radius": {
+    "m": {
+      "$type": "borderRadius",
+      "$value": "16"
+    }
+  }
+}
