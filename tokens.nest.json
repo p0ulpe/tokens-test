@@ -12,6 +12,10 @@
       "l": {
         "$type": "spacing",
         "$value": "20"
+      },
+      "xl": {
+        "$type": "spacing",
+        "$value": "40"
       }
     }
   },
