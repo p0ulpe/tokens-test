@@ -4,5 +4,11 @@
       "$type": "borderRadius",
       "$value": "16"
     }
+  },
+  "primary": {
+    "default": {
+      "$type": "color",
+      "$value": "{primitive/colors.colors.red.500}"
+    }
   }
 }
