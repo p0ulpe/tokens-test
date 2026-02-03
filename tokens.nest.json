@@ -1,0 +1,171 @@
+{
+  "primitive/dimensions": {
+    "spacing": {
+      "m": {
+        "$type": "spacing",
+        "$value": "16"
+      },
+      "s": {
+        "$type": "spacing",
+        "$value": "12"
+      },
+      "l": {
+        "$type": "spacing",
+        "$value": "20"
+      }
+    }
+  },
+  "primitive/colors": {
+    "colors": {
+      "green": {
+        "100": {
+          "$type": "color",
+          "$value": "#b3ffb5"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#0cba00"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#00680a"
+        }
+      },
+      "white": {
+        "100": {
+          "$type": "color",
+          "$value": "#fff"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#cacaca"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#9d9d9d"
+        }
+      },
+      "red": {
+        "100": {
+          "$type": "color",
+          "$value": "#ff9494"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#f00"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#a20101"
+        }
+      },
+      "blue": {
+        "100": {
+          "$type": "color",
+          "$value": "#9acded"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#009fff"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#0369a9"
+        }
+      }
+    }
+  },
+  "brands/ecommerce": {
+    "color": {
+      "primary": {
+        "content": {
+          "$type": "color",
+          "$value": "{colors.white.100}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.blue.500}"
+        }
+      },
+      "secondary": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.red.500}"
+        },
+        "content": {
+          "$type": "color",
+          "$value": "{colors.white.100}"
+        }
+      }
+    },
+    "border": {
+      "primary": {
+        "$type": "border",
+        "$value": {
+          "color": "{colors.blue.900}",
+          "width": "1px",
+          "style": "solid"
+        }
+      }
+    }
+  },
+  "mode/light": {},
+  "$themes": [
+    {
+      "id": "9f2eff2b03f704dde9b440c122eed1e2b3d167a7",
+      "name": "colors",
+      "$figmaStyleReferences": {
+        "colors.green.500": "S:fe00cadce7483f927fe9d436c4dddb38ba87d993,",
+        "colors.green.100": "S:30239ed94c116f882ff57014963a07eb28092af3,",
+        "colors.green.900": "S:0b35fcc45805103ae9a97da975056149b5969114,",
+        "colors.white.100": "S:7e3fc024fec44de0a4545435ad64fd33ea9c6072,",
+        "colors.white.500": "S:d4f41f7fa344ae423070e6b4c3967534d2c8bfda,",
+        "colors.white.900": "S:c5f01e0db0e9ef97604a65832ba87ff54011b6d7,",
+        "colors.red.500": "S:2fab870aad8490ae8137a35662d3c56f4400982d,",
+        "colors.red.900": "S:26ce8562a6fbac564cab48a5bc10570269908215,",
+        "colors.red.100": "S:682c4167f2a63134ace6a6358739b2609729faa9,",
+        "colors.blue.500": "S:d1f473f6da955fd0309e79631e76fab82b9f8f2e,",
+        "colors.blue.900": "S:79ba3807a17409e86e94ee16f48dc6216a092172,",
+        "colors.blue.100": "S:ac3d021d8a0807473a733118dcc79834500a2a0f,"
+      },
+      "selectedTokenSets": {
+        "primitive/colors": "enabled"
+      },
+      "$figmaVariableReferences": {
+        "colors.green.500": "19f25f729fc763c4e2864168dd36dbb6b34bb4c3",
+        "colors.green.100": "0058963caeb83d84f9f17996be8825c1a4717d34",
+        "colors.green.900": "f8f9e42e9a14e464b44efac213a80690aab0b51f",
+        "colors.white.100": "0b71b9f160499b99595c5fa1bdab5a36a1e87543",
+        "colors.white.500": "df5564b4e5d9b8b4028b62d905d5b2e14cecdca7",
+        "colors.white.900": "9d73e0a57bf84dcddc577381818fa6c7db060282",
+        "colors.red.500": "64d41b5a45e958994643a4f3a06952ffa9f2617e",
+        "colors.red.900": "b46570679a09966e1ca23827ce2cb0d20d7842d6",
+        "colors.red.100": "7067bed874bb7616c0be0bc7d03270fcc3af5feb",
+        "colors.blue.500": "20aa0a9e10d67905f3c98c948b18ecfe9e7af595",
+        "colors.blue.900": "23c086379be4173345afc20db627c0e23539e50a",
+        "colors.blue.100": "1a9bad04c38b76044b557d0ee3ec7e4807f36a40"
+      },
+      "$figmaCollectionId": "VariableCollectionId:12:2",
+      "$figmaModeId": "12:0",
+      "group": "primitive"
+    },
+    {
+      "id": "065a2c24bdb17c1e1fda0885d94d332dbad6c7c9",
+      "name": "ecommerce",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "brands/ecommerce": "enabled"
+      },
+      "$figmaVariableReferences": {},
+      "group": "brands"
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "primitive/dimensions",
+      "primitive/colors",
+      "brands/ecommerce",
+      "mode/light"
+    ]
+  }
+}
